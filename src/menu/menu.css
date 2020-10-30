@@ -1,0 +1,43 @@
+body {
+    background: #454545;
+    color: white;
+    font-family: "Mont DEMO";
+}
+
+.content > .button {
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: -90px;
+    border: white solid 1px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button {
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: white solid 1px;
+    display: inline-block;
+}
+
+.content, .design {
+    display: flex;
+    width: 60%;
+    margin-left: 5px;
+}
+
+.test, .id {
+    margin-right: 12px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
