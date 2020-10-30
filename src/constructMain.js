@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Constructor } from './constuctor/Constructor.js'
 
 const $btnAddQuestion = document.querySelector('.btnAddQuestion')
@@ -56,3 +57,6 @@ $btnAddAnswer.addEventListener('click', btnAddAnswerHandler)
 $btnConfirm.addEventListener('click', btnConfirmHandler)
 
 //TODO: метод - строка пуста (или пробелы) - true, иначе false
+=======
+console.log('asdas')
+>>>>>>> 078076881b0d5f49d6247811dfb0d963dbb91d6f
