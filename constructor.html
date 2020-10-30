@@ -11,12 +11,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Title</title>
 
-    <link type="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container">
 
-<h1>Constructor</h1>
+    <h1>Constructor</h1>
 
-<script src="src/testViewMain.js" type="module"></script>
+    <input type="text" class="questionTitle" placeholder="Введите вопрос">
+
+    <div class="answers">
+        <div class="answer">
+            <input type="text" class="answerTitle" placeholder="Ответ">
+            <input type="radio" class="correctAnswer" name="correctAnswer">
+        </div>
+
+        <div class="answer">
+            <input type="text" class="answerTitle" placeholder="Ответ">
+            <input type="radio" class="correctAnswer" name="correctAnswer">
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button class="btn btnAddAnswer">+</button>
+        <button class="btn btnAddQuestion">Добавить вопрос</button>
+        <button class="btn btnConfirm">Закончить</button>
+    </div>
+
+    
+</div>
+
+<script src="src/constructMain.js" type="module"></script>
 </body>
 </html>
